@@ -9,12 +9,12 @@ hide_title: true
 
 ## Table of Contents
 
-- [Why doesn't Redux pass the state and action to subscribers?](#why-doesnt-redux-pass-the-state-and-action-to-subscribers)
-- [Why doesn't Redux support using classes for actions and reducers?](#why-doesnt-redux-support-using-classes-for-actions-and-reducers)
+- [Why doesn't Redux pass the state and action to subscribers?](#why-doesn-t-redux-pass-the-state-and-action-to-subscribers)
+- [Why doesn't Redux support using classes for actions and reducers?](#why-doesn-t-redux-support-using-classes-for-actions-and-reducers)
 - [Why does the middleware signature use currying?](#why-does-the-middleware-signature-use-currying)
 - [Why does applyMiddleware use a closure for dispatch?](#why-does-applymiddleware-use-a-closure-for-dispatch)
-- [Why doesn't `combineReducers` include a third argument with the entire state when it calls each reducer?](#why-doesnt-combinereducers-include-a-third-argument-with-the-entire-state-when-it-calls-each-reducer)
-- [Why doesn't mapDispatchToProps allow use of return values from `getState()` or `mapStateToProps()`?](#why-doesnt-mapdispatchtoprops-allow-use-of-return-values-from-getstate-or-mapstatetoprops)
+- [Why doesn't `combineReducers` include a third argument with the entire state when it calls each reducer?](#why-doesn-t-combinereducers-include-a-third-argument-with-the-entire-state-when-it-calls-each-reducer)
+- [Why doesn't mapDispatchToProps allow use of return values from `getState()` or `mapStateToProps()`?](#why-doesn-t-mapdispatchtoprops-allow-use-of-return-values-from-getstate-or-mapstatetoprops)
 
 ## Design Decisions
 
